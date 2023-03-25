@@ -16,7 +16,7 @@ client = commands.Bot(command_prefix = "!")
 def openLink(link) :
   requests.get(link)
   if reponse.status_code == 200:
-    print("SUccessfully opened the link.")
+    print("Successfully opened the link.")
   if response.status_code == 400 :
     print("Failed to open link.")
 
